@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Picomam Eclis - Desenvolvedor Web</title>
+    <style>
+        body { background-color: #202020; color: #f0f0f0; font-family: sans-serif; }
+        a { color: hsl(0, 100%, 50%); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Guilherme Picomam Eclis - Desenvolvedor Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <hr>
+        
+        <!-- Seção Sobre Mim -->
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <img src="eu2.jpg" alt="Foto de perfil" width="150" height="150">
+            <p>Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.</p>
+            <p>Tenho conhecimento em <em>HTML, CSS</em> e estou aprendendo <em>JavaScript</em>.</p>
+            
+            <h3>Minhas Habilidades:</h3>
+            <ul>
+                <li>HTML5 Semântico</li>
+                <li>CSS3 e Responsividade</li>
+                <li>Formulários e Validação</li>
+                <li>Estruturação de Dados</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Seção Meus Projetos -->
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Tecnologias</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Loja de Games Retro</td>
+                        <td>HTML, CSS</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/Grmp18/trabalho_aula5_Guilherme_picomam" target="_blank">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Site Sobre Homem aranha 3</td>
+                        <td>HTML</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/Grmp18/trabalho-html1" target="_blank">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Banco Virtual</td>
+                        <td>JavaScript</td>
+                        <td>Concluído</td>
+                        <td><a href="https://github.com/Grmp18/banco_virtual/blob/main/banco.js" target="_blank">Ver Projeto</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Seção Entre em Contato -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Dados do Contato</legend>
+                    
+                    <p>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+                    
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    
+                    <p>
+                        <label for="assunto">Assunto:</label><br>
+                        <select id="assunto" name="assunto">
+                            <option value="oportunidade">Oportunidade de Trabalho</option>
+                            <option value="parceria">Parceria</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </p>
+                    
+                    <button type="submit">Enviar Mensagem</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+        <p>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCFSrsSkrnnwGTGlfvlmRcwlJdCNWjRkzvxDMNlfDmSKRvxBtGGJLPPRhNKrcHHsGrLHhg">guilhermepeclis@gmail.com</a> | 
+            <a href="tel:+5511966406507">(11) 966406507</a>
+        </p>
+    </footer>
+
+</body>
+</html>
