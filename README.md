@@ -1,4 +1,4 @@
-# 📓Portfólio / Currículo Web
+# Portfólio_sobre_mim
 
 Este projeto é uma página de currículo online feita inteiramente em **HTML5 puro e semântico**.
 
